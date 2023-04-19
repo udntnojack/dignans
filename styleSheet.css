@@ -1,0 +1,28 @@
+.topNavBar .navColor{
+    height :100px;
+    background-color: #38778D;
+    display :flex;
+}
+.topNavBar img{
+     margin :none;
+     padding: none;
+     height: 200px;
+
+}
+.topNavBar .menu li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topNavBar a:hover{
+    background-color: #D8D4D3;
+}
+
+.imgBackground{
+    background-image: url("images/pexels-fauxels-3184183.jpg");
+}
