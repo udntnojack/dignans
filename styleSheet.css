@@ -1,28 +1,93 @@
-.topNavBar .navColor{
-    height :100px;
-    background-color: #38778D;
-    display :flex;
-}
-.topNavBar img{
-     margin :none;
-     padding: none;
-     height: 200px;
-
-}
-.topNavBar .menu li{
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px 14px 50px;
-    text-decoration: none;
-    font-size: 17px;
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #757780;
 }
 
+.container{
+  width: 100vw;
+  height: 100vw;
 
-.topNavBar a:hover{
-    background-color: #D8D4D3;
+  font-family: 'Quicksand' sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 400px 300px;
+
+}
+.buttons{
+  width: 300px;
+  position: relative;
+  top: 550px;
+  left: 1200px;
+  background-color: green;
 }
 
-.imgBackground{
-    background-image: url("images/pexels-fauxels-3184183.jpg");
+.container div{
+  padding: 10px;
+  border: 1px solid #000000;
+}
+.header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #38778D;
+  z-index: 2;
+  display: flex;
+}
+.header a{
+  padding: 25px;
+  text-decoration: none;
+}
+.header a:hover{
+  background-color: #dbd4d3;
+}
+.header img{
+  height: 200px;
+}
+.landimage{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end:4;
+  background-image: url(/images/pexels-fauxels-3184183.jpg);
+  background-size: cover;
+  z-index: 1;
+  
+}
+.landimage .promobox{
+  background-color: red;
+  height: 400px;
+  width:800px;
+  float:right;
+  margin: 100px;
+
+}
+.picBoxs{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.box{
+  height:400px;
+  width: 400px;
+  background-size: cover;
+  color:black;
+  display: block;
+  text-align: center;
+}
+.textBox{
+  position: relative;
+  height: 200px;
+  width: 500px;
+  top: 87px;
+  right: 21px;
+  width: 100%;
+  margin: 10px;
+  background-color: #dbd4d3;
+  opacity: 0.7;
 }
