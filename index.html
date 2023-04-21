@@ -9,11 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
+    <script>
+        function myFunction() {
+            alert("hello");
+        }
+    </script>
     <div class="container">
-            <div class="header">
+            <div class="header" id="myLinks">
                 <img src="/images/logo.PNG">
                 <a href="index.html" class="active">Home</a>
                 <a href ="aboutUs.html">about us</a>
@@ -22,35 +28,41 @@
                 <a href ="menu.html">menu</a>
                 <a href ="register.html">register</a>
                 <a href ="events.html">events</a>
+                <p class="icon" onclick="myfunction()">
+                    <i class="fa fa-bars"></i>
+                </p>
             </div>
         <div class="landimage">
             <div class="promobox">
-                <h1>make dignams your choice for corporate events</h1>
+                <h1>Make Dignams Your Choice for Corporate Events</h1>
+                <h2> Promotions and special offers</h2>
+                <h3> Order a barbeque for this summer and get 25% off the booking fee </h3>
+                <div class ="buttons">
+                    <div class = "register"><a> Register</a></div>
+                    <div class = "aboutus"><a> About us</a></div> 
+                </div>
             </div>
-
-            <div class ="buttons">
-                <button>about us</button>
-                <button>register</button>
-            </div>
-
         </div>
         <div class="picBoxs">
             <div class="box" style = "background-image: url(images/pexels-pixabay-50675.jpg);">
-                <h1>Corporate Events</h1>
+                
                 <div class ="textBox">
-                    <h1>click here to book your next corporate event</h1>
+                    <h1>Corporate Events</h1>
+                    <h2>click here to book your next corporate event</h2>
                 </div>
             </div>
             <div class="box" style = "background-image: url(images/pexels-min-an-1482803.jpg);">
-                <h1> Barbeques</h1>
+                
                 <div class ="textBox">
-                    <h1>click here to book your next barbeques</h1>
+                    <h1> Barbeques</h1>
+                    <h2>click here to book your next barbeques</h2>
                 </div>
             </div>
             <div class="box" style = "background-image: url(images/pexels-fauxels-3182837.jpg);">
-                <h1>Office Lunches</h1>
+                
                 <div class ="textBox">
-                    <h1>click here to book your next office lunch</h1>
+                    <h1>Office Lunches</h1>
+                    <h2>click here to book your next office lunch</h2>
                 </div>
             </div>
         </div>

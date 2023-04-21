@@ -22,14 +22,12 @@ body{
 .buttons{
   width: 300px;
   position: relative;
-  top: 550px;
-  left: 1200px;
-  background-color: green;
+  top: 150px;
+  left: 200px;
 }
 
 .container div{
   padding: 10px;
-  border: 1px solid #000000;
 }
 .header{
   grid-column-start: 1;
@@ -48,6 +46,13 @@ body{
 .header img{
   height: 200px;
 }
+.header .icon{
+  display: none;
+}
+.header #myLinks {
+  display: none;
+}
+
 .landimage{
   grid-column-start: 1;
   grid-column-end: 4;
@@ -59,17 +64,29 @@ body{
   
 }
 .landimage .promobox{
-  background-color: red;
+  background-color: #dbd4d3;
+  background: rgba(219, 212, 211, 0.5);
+  color: black;
   height: 400px;
   width: 800px;
   float:right;
   margin: 100px;
 
 }
+.promobox h1{
+
+  text-align: center;
+}
+.promobox h2{
+  text-align: center;
+  text-decoration: underline;
+}
+.promobox h3{
+  text-align: center;
+}
 .picBoxs{
   grid-column-start: 1;
   grid-column-end: 4;
-
   grid-row-start: 4;
   grid-row-end: 5;
   display: flex;
@@ -85,6 +102,36 @@ body{
   display: block;
   text-align: center;
 }
+
+.register{
+  position: relative;
+  width: 100px;
+  height: 25px;
+  display: inline-block;
+  background-color: #e83151;;
+}
+.register:hover{
+  background-color: #dbd4d3;
+}
+
+.register a{
+  text-align: center;
+}
+.aboutus{
+  float:right;
+  position: relative;
+  width:100px;
+  height: 25px;
+  display: inline-block;
+  background-color: #e83151;
+}
+.aboutus:hover{
+  background-color: #dbd4d3;
+}
+
+.aboutus a{
+  text-align: center;
+}
 .textBox{
   position: relative;
   height: 200px;
@@ -94,5 +141,38 @@ body{
   width: 100%;
   margin: 10px;
   background-color: #dbd4d3;
-  opacity: 0.7;
+  background: rgba(219, 212, 211, 0.5);
+}
+.textBox h1{
+  text-decoration: underline;
+}
+
+@media (max-width: 900px){
+  .picBoxs{
+    display: block;
+    
+  }
+  .box{
+    margin: auto;
+  }
+  .landimage .promobox{
+    margin: auto;
+    margin-top: 100px;
+    float: none;
+    width: 300px
+  }
+  .buttons{
+    margin: auto;
+    position: relative;
+    top: 20px;
+    left: -15px;
+  }
+  .header a{
+    display: none;
+  }
+  .header .icon{
+    display: block;
+    float: right;
+    margin: auto;
+  }
 }
