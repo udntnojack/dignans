@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   font-family: 'Roboto', sans-serif;
-  color: #757780;
+  color: black;
   background-color: #38778D;
 }
 
@@ -25,6 +25,22 @@ body{
   position: relative;
   top: 150px;
   left: 200px;
+}
+.aboutbox h3{
+  color: black;
+}
+.aboutbox{
+  background: rgba(219, 212, 211, 0.5);
+  margin: 100px;
+  height: 500px;
+}
+.aboutuscall{
+  position: absolute;
+  bottom: 150px;
+  left:90px;
+  width: 300px;
+  margin: 25px;
+  background-color: #e83151;
 }
 
 .container div{
