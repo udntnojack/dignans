@@ -28,6 +28,7 @@ body{
 
 .container div{
   padding: 10px;
+  border: 1px solid #000000;
 }
 .header{
   grid-column-start: 1;
@@ -47,12 +48,12 @@ body{
   height: 200px;
 }
 .header .icon{
-  display: none;
+  display: block;
 }
-.header #myLinks {
-  display: none;
+.header .hamburger{
+  width: 500px;
+  height: 600px;
 }
-
 .landimage{
   grid-column-start: 1;
   grid-column-end: 4;
@@ -122,7 +123,6 @@ body{
   position: relative;
   width:100px;
   height: 25px;
-  display: inline-block;
   background-color: #e83151;
 }
 .aboutus:hover{
@@ -167,12 +167,11 @@ body{
     top: 20px;
     left: -15px;
   }
-  .header a{
-    display: none;
-  }
   .header .icon{
     display: block;
     float: right;
-    margin: auto;
+  }
+  .header a{
+    display:none;
   }
 }

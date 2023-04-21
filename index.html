@@ -10,14 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<script src="script.js"></script>
 </head>
 <body>
-    <script>
-        function myFunction() {
-            alert("hello");
-        }
-    </script>
+
     <div class="container">
             <div class="header" id="myLinks">
                 <img src="/images/logo.PNG">
@@ -28,9 +24,18 @@
                 <a href ="menu.html">menu</a>
                 <a href ="register.html">register</a>
                 <a href ="events.html">events</a>
-                <p class="icon" onclick="myfunction()">
+                <p href="javascript:void(0);" class="icon" onclick="hamburger()">
                     <i class="fa fa-bars"></i>
                 </p>
+                <div class="hamburger">
+                    <a href="index.html" class="active">Home</a>
+                    <a href ="aboutUs.html">about us</a>
+                    <a href ="contactUs.html">contact us</a>
+                    <a href ="order.html">order</a>
+                    <a href ="menu.html">menu</a>
+                    <a href ="register.html">register</a>
+                    <a href ="events.html">events</a>
+                </div>
             </div>
         <div class="landimage">
             <div class="promobox">
