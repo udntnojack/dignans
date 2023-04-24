@@ -34,6 +34,30 @@ body{
   margin: 100px;
   height: 500px;
 }
+.promobox a{
+  display: block;
+  text-align: center;
+}
+.map{
+  display: block;
+  float: right;
+  position: absolute;
+  top:230px;
+  right: 100px;
+}
+td{
+  text-align: center;
+}
+th{
+  text-decoration: underline;
+}
+.mailchimp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
 .aboutuscall{
   position: absolute;
   bottom: 150px;
@@ -42,10 +66,12 @@ body{
   margin: 25px;
   background-color: #e83151;
 }
-
+.aboutbox a{
+  display: block;
+  text-align: center;
+}
 .container div{
   padding: 10px;
-  border: 1px solid #000000;
 }
 .header{
   grid-column-start: 1;
@@ -247,5 +273,8 @@ body{
   }
   .eventtext a{
     font-size: 17px;
+  }
+  .map{
+    display: none;
   }
 }
